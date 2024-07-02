@@ -1,6 +1,15 @@
 # Ecommerce Microservices Service Discovery
 
-This repository serves as the umbrella for the StatlerWaldorfCorp Ecommerce microservices.
+This repository serves as the umbrella for the StatlerWaldorfCorp Ecommerce microservices demo.
+
+The Catalog Service likely needs to provide information about products, including their availability or stock status.
+To get the stock status of products, the Catalog Service queries the Inventory Service.
+
+Dependency Relationship:
+
+- The Catalog Service depends on the Inventory Service to fetch and display accurate inventory information to users.
+This dependency is managed through HTTP calls made by the Catalog Service to the Inventory Service.
+
 
 ## Microservices
 
