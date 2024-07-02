@@ -8,7 +8,7 @@ To get the stock status of products, the Catalog Service queries the Inventory S
 Dependency Relationship:
 
 - The Catalog Service depends on the Inventory Service to fetch and display accurate inventory information to users.
-This dependency is managed through HTTP calls made by the Catalog Service to the Inventory Service.
+- This dependency is managed through HTTP calls made by the Catalog Service to the Inventory Service.
 
 ## System architecture
 
