@@ -1,0 +1,6 @@
+[submodule "Catalog"]
+	path = Catalog
+	url = https://github.com/pkErbynn/StatlerWaldorfCorp.EcommerceCatalog.git
+[submodule "Inventory"]
+	path = Inventory
+	url = https://github.com/pkErbynn/StatlerWaldorfCorp.EcommerceInventory.git
